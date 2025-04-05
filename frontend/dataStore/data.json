@@ -1,0 +1,140 @@
+{
+    "data" : {
+        "Karaikudi": {
+      "Daikin": {
+        "AC": { "price": 40000, "description": "1.5 Ton Split AC with Inverter", "available": true },
+        "Fridge": { "price": 25000, "description": "Double Door Refrigerator 300L", "available": false },
+        "Washing Machine": { "price": 18000, "description": "Fully Automatic Front Load", "available": true }
+      },
+      "Samsung": {
+        "AC": { "price": 42000, "description": "2 Ton Smart AC with WiFi", "available": true },
+        "Fridge": { "price": 28000, "description": "Side-by-Side Refrigerator 500L", "available": true },
+        "Washing Machine": { "price": 20000, "description": "Top Load Washing Machine", "available": false }
+      },
+      "LG": {
+        "AC": { "price": 39000, "description": "1.5 Ton Split AC with Dual Inverter", "available": true },
+        "Fridge": { "price": 26000, "description": "Single Door Refrigerator 250L", "available": false },
+        "Washing Machine": { "price": 19000, "description": "Semi-Automatic Washing Machine", "available": true }
+      },
+      "Whirlpool": {
+        "AC": { "price": 35000, "description": "1 Ton Window AC", "available": true },
+        "Fridge": { "price": 22000, "description": "Mini Refrigerator 200L", "available": true },
+        "Washing Machine": { "price": 17000, "description": "Fully Automatic Top Load", "available": false }
+      },
+      "Godrej": {
+        "AC": { "price": 37000, "description": "Smart AC with Fast Cooling", "available": true },
+        "Fridge": { "price": 27000, "description": "Eco-Friendly Refrigerator 350L", "available": true },
+        "Washing Machine": { "price": 21000, "description": "High Efficiency Washer", "available": false }
+      }
+    },
+    "Madurai": {
+      "Daikin": {
+        "AC": { "price": 41000, "description": "Smart Inverter AC", "available": true },
+        "Fridge": { "price": 25500, "description": "Frost Free Double Door Fridge", "available": true },
+        "Washing Machine": { "price": 18500, "description": "Energy Efficient Front Load", "available": false }
+      },
+      "Samsung": {
+        "AC": { "price": 43000, "description": "AI-Powered Smart AC", "available": false },
+        "Fridge": { "price": 29000, "description": "Large Capacity Fridge", "available": true },
+        "Washing Machine": { "price": 21500, "description": "5-Star Rated Washer", "available": true }
+      },
+      "LG": {
+        "AC": { "price": 39000, "description": "1.5 Ton Split AC with Dual Inverter", "available": true },
+        "Fridge": { "price": 26000, "description": "Single Door Refrigerator 250L", "available": false },
+        "Washing Machine": { "price": 19000, "description": "Semi-Automatic Washing Machine", "available": true }
+      },
+      "Whirlpool": {
+        "AC": { "price": 35000, "description": "1 Ton Window AC", "available": true },
+        "Fridge": { "price": 22000, "description": "Mini Refrigerator 200L", "available": true },
+        "Washing Machine": { "price": 17000, "description": "Fully Automatic Top Load", "available": false }
+      },
+      "Godrej": {
+        "AC": { "price": 37000, "description": "Smart AC with Fast Cooling", "available": true },
+        "Fridge": { "price": 27000, "description": "Eco-Friendly Refrigerator 350L", "available": true },
+        "Washing Machine": { "price": 21000, "description": "High Efficiency Washer", "available": false }
+      }
+    },
+    "Chennai": {
+      "Daikin": {
+        "AC": { "price": 41000, "description": "Smart Inverter AC", "available": true },
+        "Fridge": { "price": 25500, "description": "Frost Free Double Door Fridge", "available": true },
+        "Washing Machine": { "price": 18500, "description": "Energy Efficient Front Load", "available": false }
+      },
+      "Samsung": {
+        "AC": { "price": 43000, "description": "AI-Powered Smart AC", "available": false },
+        "Fridge": { "price": 29000, "description": "Large Capacity Fridge", "available": true },
+        "Washing Machine": { "price": 21500, "description": "5-Star Rated Washer", "available": true }
+      },
+      "LG": {
+        "AC": { "price": 39000, "description": "1.5 Ton Split AC with Dual Inverter", "available": true },
+        "Fridge": { "price": 26000, "description": "Single Door Refrigerator 250L", "available": false },
+        "Washing Machine": { "price": 19000, "description": "Semi-Automatic Washing Machine", "available": true }
+      },
+      "Whirlpool": {
+        "AC": { "price": 35000, "description": "1 Ton Window AC", "available": true },
+        "Fridge": { "price": 22000, "description": "Mini Refrigerator 200L", "available": true },
+        "Washing Machine": { "price": 17000, "description": "Fully Automatic Top Load", "available": false }
+      },
+      "Godrej": {
+        "AC": { "price": 37000, "description": "Smart AC with Fast Cooling", "available": true },
+        "Fridge": { "price": 27000, "description": "Eco-Friendly Refrigerator 350L", "available": true },
+        "Washing Machine": { "price": 21000, "description": "High Efficiency Washer", "available": false }
+      }
+    },
+    "Coimbatore": {
+      "Daikin": {
+        "AC": { "price": 41000, "description": "Smart Inverter AC", "available": true },
+        "Fridge": { "price": 25500, "description": "Frost Free Double Door Fridge", "available": true },
+        "Washing Machine": { "price": 18500, "description": "Energy Efficient Front Load", "available": false }
+      },
+      "Samsung": {
+        "AC": { "price": 43000, "description": "AI-Powered Smart AC", "available": false },
+        "Fridge": { "price": 29000, "description": "Large Capacity Fridge", "available": true },
+        "Washing Machine": { "price": 21500, "description": "5-Star Rated Washer", "available": true }
+      },
+      "LG": {
+        "AC": { "price": 39000, "description": "1.5 Ton Split AC with Dual Inverter", "available": true },
+        "Fridge": { "price": 26000, "description": "Single Door Refrigerator 250L", "available": false },
+        "Washing Machine": { "price": 19000, "description": "Semi-Automatic Washing Machine", "available": true }
+      },
+      "Whirlpool": {
+        "AC": { "price": 35000, "description": "1 Ton Window AC", "available": true },
+        "Fridge": { "price": 22000, "description": "Mini Refrigerator 200L", "available": true },
+        "Washing Machine": { "price": 17000, "description": "Fully Automatic Top Load", "available": false }
+      },
+      "Godrej": {
+        "AC": { "price": 37000, "description": "Smart AC with Fast Cooling", "available": true },
+        "Fridge": { "price": 27000, "description": "Eco-Friendly Refrigerator 350L", "available": true },
+        "Washing Machine": { "price": 21000, "description": "High Efficiency Washer", "available": false }
+      }
+    },
+    "Tirpur": {
+      "Daikin": {
+        "AC": { "price": 41000, "description": "Smart Inverter AC", "available": true },
+        "Fridge": { "price": 25500, "description": "Frost Free Double Door Fridge", "available": true },
+        "Washing Machine": { "price": 18500, "description": "Energy Efficient Front Load", "available": false }
+      },
+      "Samsung": {
+        "AC": { "price": 43000, "description": "AI-Powered Smart AC", "available": false },
+        "Fridge": { "price": 29000, "description": "Large Capacity Fridge", "available": true },
+        "Washing Machine": { "price": 21500, "description": "5-Star Rated Washer", "available": true }
+      },
+      "LG": {
+        "AC": { "price": 39000, "description": "1.5 Ton Split AC with Dual Inverter", "available": true },
+        "Fridge": { "price": 26000, "description": "Single Door Refrigerator 250L", "available": false },
+        "Washing Machine": { "price": 19000, "description": "Semi-Automatic Washing Machine", "available": true }
+      },
+      "Whirlpool": {
+        "AC": { "price": 35000, "description": "1 Ton Window AC", "available": true },
+        "Fridge": { "price": 22000, "description": "Mini Refrigerator 200L", "available": true },
+        "Washing Machine": { "price": 17000, "description": "Fully Automatic Top Load", "available": false }
+      },
+      "Godrej": {
+        "AC": { "price": 37000, "description": "Smart AC with Fast Cooling", "available": true },
+        "Fridge": { "price": 27000, "description": "Eco-Friendly Refrigerator 350L", "available": true },
+        "Washing Machine": { "price": 21000, "description": "High Efficiency Washer", "available": false }
+      }
+    }
+}
+}
+  

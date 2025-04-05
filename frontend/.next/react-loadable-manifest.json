@@ -1,0 +1,72 @@
+{
+  "app\\page.tsx -> @/js/bootstrap.js": {
+    "id": 3162,
+    "files": [
+      "static/chunks/126.7a6e5d635cb35129.js",
+      "static/chunks/162.7b4f18bcdfcd9297.js"
+    ]
+  },
+  "app\\page.tsx -> @/js/main.js": {
+    "id": 858,
+    "files": [
+      "static/chunks/41ade5dc.7367697146157903.js",
+      "static/chunks/c15bf2b0.e96fc59471345cd2.js",
+      "static/chunks/126.7a6e5d635cb35129.js",
+      "static/chunks/173.dc8dcec8c42143dc.js",
+      "static/chunks/477.1eb84747bebe4588.js"
+    ]
+  },
+  "components\\navbar.tsx -> bootstrap/dist/js/bootstrap.bundle.min.js": {
+    "id": 3966,
+    "files": [
+      "static/chunks/737.0066934ddbf85201.js",
+      "static/chunks/966.2b2c3fb8cda3dfac.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
+    "id": 472,
+    "files": [
+      "static/chunks/472.a3826d29d6854395.js"
+    ]
+  },
+  "node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 9341,
+    "files": [
+      "static/chunks/341.2ac8486d4574a5ac.js"
+    ]
+  },
+  "pages\\[city]\\[brand]\\[product].tsx -> @/js/bootstrap.js": {
+    "id": 3850,
+    "files": [
+      "static/chunks/985.e2f5c2875af830e4.js",
+      "static/chunks/469.4070e723f1d33212.js"
+    ]
+  },
+  "pages\\[city]\\[brand]\\[product].tsx -> @/js/main.js": {
+    "id": 9872,
+    "files": [
+      "static/chunks/08687d28.ca5aa09d605d49d3.js",
+      "static/chunks/281c3f4d.8af47c2529eefdca.js",
+      "static/chunks/985.e2f5c2875af830e4.js",
+      "static/chunks/200.dd5a376264164aa6.js",
+      "static/chunks/872.9c1598249ddf0351.js"
+    ]
+  },
+  "pages\\services\\[city]\\[product].tsx -> @/js/bootstrap.js": {
+    "id": 3850,
+    "files": [
+      "static/chunks/985.e2f5c2875af830e4.js",
+      "static/chunks/469.4070e723f1d33212.js"
+    ]
+  },
+  "pages\\services\\[city]\\[product].tsx -> @/js/main.js": {
+    "id": 9872,
+    "files": [
+      "static/chunks/08687d28.ca5aa09d605d49d3.js",
+      "static/chunks/281c3f4d.8af47c2529eefdca.js",
+      "static/chunks/985.e2f5c2875af830e4.js",
+      "static/chunks/200.dd5a376264164aa6.js",
+      "static/chunks/872.9c1598249ddf0351.js"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "locations": {
+        "Karaikudi": {
+            "line1": "#1, Subramaniyapuram,",
+            "line2": "1st Street South Extension,",
+            "line3": "State Bank Road, Karaikudi"
+        },
+        "Madurai": {
+            "line1": "#2, Anna Nagar,",
+            "line2": "2nd Street West,",
+            "line3": "Alagar Kovil Road, Madurai"
+        },
+        "Chennai": {
+            "line1": "#3, T. Nagar,",
+            "line2": "3rd Avenue,",
+            "line3": "Mount Road, Chennai"
+        },
+        "Coimbatore": {
+            "line1": "#4, Gandhipuram,",
+            "line2": "4th Cross Street,",
+            "line3": "Avinashi Road, Coimbatore"
+        },
+        "Tirupur": {
+            "line1": "#5, Avinashi,",
+            "line2": "5th Block,",
+            "line3": "Kangeyam Road, Tirupur"
+        }
+    }
+}

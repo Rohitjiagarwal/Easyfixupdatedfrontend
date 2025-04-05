@@ -1,0 +1,95 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/services/[city]/[product]",
+      "regex": "^/services/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity",
+        "nxtPproduct": "nxtPproduct"
+      },
+      "namedRegex": "^/services/(?<nxtPcity>[^/]+?)/(?<nxtPproduct>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/[city]/[brand]/[product]",
+      "regex": "^/([^/]+?)/([^/]+?)/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity",
+        "nxtPbrand": "nxtPbrand",
+        "nxtPproduct": "nxtPproduct"
+      },
+      "namedRegex": "^/(?<nxtPcity>[^/]+?)/(?<nxtPbrand>[^/]+?)/(?<nxtPproduct>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    }
+  ],
+  "dataRoutes": [
+    {
+      "page": "/services/[city]/[product]",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity",
+        "nxtPproduct": "nxtPproduct"
+      },
+      "dataRouteRegex": "^/_next/data/X3w0VHr0iMoD5SEoD2Q4P/services/([^/]+?)/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/X3w0VHr0iMoD5SEoD2Q4P/services/(?<nxtPcity>[^/]+?)/(?<nxtPproduct>[^/]+?)\\.json$"
+    },
+    {
+      "page": "/[city]/[brand]/[product]",
+      "routeKeys": {
+        "nxtPcity": "nxtPcity",
+        "nxtPbrand": "nxtPbrand",
+        "nxtPproduct": "nxtPproduct"
+      },
+      "dataRouteRegex": "^/_next/data/X3w0VHr0iMoD5SEoD2Q4P/([^/]+?)/([^/]+?)/([^/]+?)\\.json$",
+      "namedDataRouteRegex": "^/_next/data/X3w0VHr0iMoD5SEoD2Q4P/(?<nxtPcity>[^/]+?)/(?<nxtPbrand>[^/]+?)/(?<nxtPproduct>[^/]+?)\\.json$"
+    }
+  ],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}
