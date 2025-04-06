@@ -1,4 +1,4 @@
-// File: C:\Users\91805\Documents\fixExpertAssignment\my-next-app\frontend\app\page.tsx
+// File: C:\Users\rohit\Downloads\EasyFix Expert-Stage\fixExpertAssignment-main\frontend\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
