@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "aos": "^2.3.4",
+    "framer-motion": "^12.6.3",
+    "react-datepicker": "^8.2.1",
+    "react-ripples": "^2.2.1",
+    "react-type-animation": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/react-datepicker": "^6.2.0"
+  }
+}

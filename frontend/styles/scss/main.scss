@@ -180,155 +180,316 @@ $prefix: 'bs-';
 }
 
 .landing-page {
+    background: linear-gradient(135deg, #e6f0ff 0%, #d6e5ff 100%); // Softer blue gradient
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+
+    .container {
+        max-width: 1300px;
+        padding: 0 2rem;
+    }
+
     .landing-page-content {
-        height: 100vh;
-        background: url('/images/album/istockphoto-1003476144-1024x1024.jpg');
-        background-repeat: no-repeat;
-        background-position: right -50%;
-        background-size: 700px;
-        border-radius: var(--sk-border-radius);
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 1rem 2rem; // Reduced padding to fit content better
+        min-height: 100vh;
         display: flex;
-        align-items: center; // Center content vertically
-        justify-content: space-between; // Space out the left content and booking form
-        min-height: 80vh;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 3rem 2rem;
+        z-index: 1;
 
-        .col-md-9 {
-            display: flex;
-            flex-direction: column;
-            justify-content: center; // Center the h1 and desc vertically within this column
-            height: 100%; // Ensure the column takes full height to center content
-            padding-right: 1rem; // Add some spacing between text and form
-        }
-
-        h1 {
-            @extend .text-custom;
-            font-size: 2.5rem; // Slightly reduced font size to fit better
-            line-height: 1.2;
-            margin-bottom: 1rem; // Reduced margin to save space
-            margin-top: 0;
-        }
-
-        .desc {
-            @extend .text-custom;
-            font-size: 1rem; // Slightly reduced font size to fit better
-        }
-
-        .booking-form {
-            background-color: #fff;
-            padding: 1.5rem; // Reduced padding to make the form more compact
-            border-radius: var(--sk-border-radius);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            max-width: 300px; // Slightly reduced width to fit better
-            margin-left: auto;
-            align-self: center; // Center the form vertically within its flex space
-        }
-
-        .form-label {
-            font-size: 0.8rem; // Reduced font size to make form more compact
-            margin-bottom: 0.3rem; // Reduced margin to save space
-        }
-
-        .form-control,
-        .form-select {
-            border-radius: 0.5rem;
-            padding: 0.5rem; // Reduced padding to make inputs smaller
-            font-size: 0.8rem; // Reduced font size to make form more compact
-            border: 1px solid #e0e0e0;
-            transition: border-color 0.3s ease;
-
-            &:focus {
-                border-color: var(--bs-primary);
-                box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.25);
-            }
-        }
-
-        .btn {
-            padding: 0.5rem; // Reduced padding to make button smaller
-            font-size: 0.9rem; // Reduced font size to fit better
-            font-weight: 600;
-            transition: filter 0.3s ease;
-
-            &:hover {
-                filter: brightness(90%);
-            }
-        }
-    }
-}
-
-@media (max-width: 992px) {
-    .landing-page {
-        .landing-page-content {
-            flex-direction: column;
-            text-align: center;
-            background-position: center top;
+        // Decorative wave layer
+        &::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23007bff' fill-opacity='0.1' d='M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z'%3E%3C/path%3E%3C/svg%3E");
             background-size: cover;
-            padding: 1rem;
-            height: auto;
+            background-position: bottom;
+            z-index: -1;
+        }
 
-            .col-md-9 {
-                height: auto; // Adjust for column layout
-                justify-content: flex-start; // Align content at the top on smaller screens
-                padding-right: 0; // Remove extra padding in column layout
+        // Gradient overlay for depth
+        &::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(45deg, rgba(0, 123, 255, 0.05), rgba(214, 229, 255, 0.6)); // Softer transition
+            z-index: -2;
+        }
+
+        // Floating decorative shapes
+        .decorative-shape {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(0, 123, 255, 0.1);
+            z-index: -1;
+            animation: float 6s ease-in-out infinite;
+
+            &.shape-1 {
+                width: 150px;
+                height: 150px;
+                top: 10%;
+                left: 5%;
+                animation-delay: 0s;
+            }
+
+            &.shape-2 {
+                width: 100px;
+                height: 100px;
+                bottom: 15%;
+                right: 10%;
+                animation-delay: 2s;
+            }
+
+            &.shape-3 {
+                width: 80px;
+                height: 80px;
+                top: 50%;
+                right: 15%;
+                animation-delay: 4s;
+            }
+        }
+
+        .text-content {
+            max-width: 50%;
+            padding-right: 2rem;
+
+            .tagline-banner {
+                background: var(--bs-primary);
+                color: #fff;
+                display: inline-flex;
+                align-items: center;
+                padding: 0.5rem 1.5rem;
+                border-radius: 2rem;
+                font-size: 0.95rem;
+                margin-bottom: 1.5rem;
+                box-shadow: 0 2px 10px rgba(0, 123, 255, 0.3);
+                position: relative;
+                overflow: hidden;
+
+                .typing-text {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    border-right: 2px solid #fff;
+                    animation: blinkCursor 0.75s step-end infinite;
+                }
             }
 
             h1 {
-                font-size: 2rem; // Adjusted for smaller screens
-                text-align: left; // Keep h1 left-aligned
-                margin-bottom: 0.5rem; // Further reduced margin
+                @extend .text-custom;
+                font-size: 3.5rem;
+                line-height: 1.1;
+                margin-bottom: 1.5rem;
+                text-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
             }
 
             .desc {
-                font-size: 0.9rem; // Adjusted for smaller screens
-                text-align: left; // Keep desc left-aligned
+                @extend .text-custom;
+                font-size: 1.25rem;
+                opacity: 0.9;
+                margin-bottom: 2rem;
             }
+        }
+
+        .booking-form-wrapper {
+            max-width: 400px;
+            width: 100%;
 
             .booking-form {
-                margin: 1rem auto 0; // Reduced margin to fit better
+                background: rgba(255, 255, 255, 0.9);
+                backdrop-filter: blur(10px);
+                padding: 2.5rem;
+                border-radius: var(--sk-border-radius);
+                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+                border: 1px solid rgba(255, 255, 255, 0.3);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+                &:hover {
+                    transform: translateY(-5px);
+                    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+                }
+
+                h6 {
+                    font-size: 1.1rem;
+                    display: flex;
+                    align-items: center;
+                    margin-bottom: 2rem;
+                    svg {
+                        margin-right: 0.5rem;
+                        transition: transform 0.3s ease;
+                    }
+                    &:hover svg {
+                        transform: rotate(15deg);
+                    }
+                }
+
+                .form-label {
+                    font-size: 0.95rem;
+                    margin-bottom: 0.5rem;
+                    color: #34495e;
+                }
+
+                .form-control,
+                .form-select {
+                    border-radius: 0.75rem;
+                    padding: 0.7rem 1rem;
+                    font-size: 0.95rem;
+                    border: 1px solid #e0e0e0;
+                    transition: all 0.3s ease;
+
+                    &:focus {
+                        border-color: var(--bs-primary);
+                        box-shadow: 0 0 10px rgba(var(--bs-primary-rgb), 0.3);
+                    }
+
+                    &.filled {
+                        border-color: #28a745;
+                        background: rgba(40, 167, 69, 0.05);
+                    }
+                }
+
+                .form-select {
+                    background: #fff url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%230C1424'%3E%3Cpath d='M7 10l5 5 5-5H7z'/%3E%3C/svg%3E") no-repeat right 0.75rem center/12px 12px;
+                    cursor: pointer;
+                }
+
+                .btn {
+                    padding: 0.8rem;
+                    font-size: 1rem;
+                    font-weight: 600;
+                    border-radius: 2rem;
+                    transition: transform 0.2s ease, background-color 0.3s ease;
+
+                    &:hover {
+                        transform: scale(1.05);
+                        background-color: darken(#007bff, 10%);
+                    }
+                }
+            }
+
+            .service-icons {
+                margin-top: 1.5rem;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+
+                .service-icon {
+                    text-align: center;
+                    width: 30%;
+                    padding: 0.5rem;
+                    transition: transform 0.3s ease;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+
+                    svg {
+                        width: 30px;
+                        height: 30px;
+                        fill: var(--bs-primary);
+                        margin-bottom: 0.5rem;
+                    }
+
+                    p {
+                        font-size: 0.8rem;
+                        color: #34495e;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    .scroll-down {
+        position: absolute;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        z-index: 1;
+
+        span {
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-bottom: 2px solid var(--bs-primary);
+            border-right: 2px solid var(--bs-primary);
+            transform: rotate(45deg);
+            margin: 0 auto;
+            animation: scrollDown 2s infinite;
+        }
+
+        p {
+            color: #34495e;
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+    }
+
+    .wave-decoration {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23007bff' fill-opacity='0.2' d='M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,213.3C672,224,768,224,864,208C960,192,1056,160,1152,149.3C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+        background-size: cover;
+        z-index: 0;
+    }
+
+    @keyframes float {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+        100% { transform: translateY(0); }
+    }
+
+    @keyframes blinkCursor {
+        0%, 100% { border-color: transparent; }
+        50% { border-color: #fff; }
+    }
+
+    @keyframes scrollDown {
+        0% { transform: rotate(45deg) translate(0, 0); opacity: 0; }
+        50% { transform: rotate(45deg) translate(10px, 10px); opacity: 1; }
+        100% { transform: rotate(45deg) translate(10px, 10px); opacity: 0; }
+    }
+
+    @media (max-width: 992px) {
+        .landing-page-content {
+            flex-direction: column;
+            padding: 2rem 1.5rem;
+            min-height: auto;
+
+            .text-content {
                 max-width: 100%;
-                padding: 1rem; // Further reduced padding for smaller screens
-                align-self: center; // Center the form in the column layout
+                text-align: center;
+                padding-right: 0;
+                margin-bottom: 2rem;
+
+                h1 { font-size: 2.5rem; }
+                .desc { font-size: 1rem; }
             }
 
-            .form-label {
-                font-size: 0.75rem; // Further reduced for smaller screens
-            }
+            .booking-form-wrapper {
+                max-width: 100%;
 
-            .form-control,
-            .form-select {
-                padding: 0.4rem; // Further reduced padding
-                font-size: 0.75rem; // Further reduced font size
-            }
-
-            .btn {
-                padding: 0.4rem; // Further reduced padding
-                font-size: 0.8rem; // Further reduced font size
+                .booking-form { padding: 2rem; }
+                .service-icons { justify-content: center; }
             }
         }
+
+        .scroll-down { bottom: 1rem; }
     }
-}
 
-@media (max-width: 576px) {
-    .landing-page {
+    @media (max-width: 576px) {
         .landing-page-content {
-            padding: 0.5rem;
-            background-position: center;
-            background-size: cover;
+            padding: 1.5rem 1rem;
 
-            h1 {
-                font-size: 1.5rem; // Further reduced for very small screens
-                text-align: left;
-            }
-
-            .desc {
-                font-size: 0.8rem; // Further reduced for very small screens
-                text-align: left;
-            }
-
-            .booking-form {
-                padding: 0.75rem; // Further reduced padding for very small screens
-            }
+            h1 { font-size: 2rem; }
+            .desc { font-size: 0.9rem; }
+            .booking-form { padding: 1.5rem; }
         }
     }
 }
