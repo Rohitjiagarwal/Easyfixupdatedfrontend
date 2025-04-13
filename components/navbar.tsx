@@ -18,10 +18,14 @@ export default function Navbar() {
           <div className="container-fluid">
             <Link className="navbar-brand" href="/">
               <Image
-                src="/images/album/easy-fix-logo-bg-removed-2.png"
-                width={100}
-                height={60}
-                style={{ width: "100%", height: "60px", objectFit: "contain" }}
+                src="/images/album/Logo_footer.png"
+                width={150}
+                height={100}
+                style={{
+                  width: "150px", // You can also try "100%" if you want full responsiveness
+                  height: "auto", // Keeps aspect ratio
+                  objectFit: "contain",
+                }}
                 alt="brand logo"
               />
             </Link>

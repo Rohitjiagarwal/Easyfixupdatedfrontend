@@ -1664,6 +1664,7 @@ export default function AirConditionerPage({
           overflow: "hidden",
         }}
       >
+        {/* Background grid overlay */}
         <div
           className="position-absolute top-0 start-0 w-100 h-100"
           style={{
@@ -1674,6 +1675,8 @@ export default function AirConditionerPage({
             zIndex: 0,
           }}
         ></div>
+
+        {/* Gradient blob */}
         <div
           className="position-absolute"
           style={{
@@ -1693,21 +1696,20 @@ export default function AirConditionerPage({
           style={{ zIndex: 1 }}
         >
           <div className="row g-4">
+            {/* Column 1: Brand and Contact */}
             <div className="col-lg-4 pe-lg-5">
               <div className="mb-4">
-                <div className="mb-3">
-                  <img
-                    src="/images/album/Logo_footer.png"
-                    alt="EasyFix Expert Logo"
-                    style={{
-                      height: "120px",
-                      width: "auto",
-                      maxWidth: "100%",
-                      objectFit: "contain",
-                      marginBottom: "10px",
-                    }}
-                  />
-                </div>
+                <img
+                  src="/images/album/Logo_footer.png"
+                  alt="EasyFix Expert Logo"
+                  style={{
+                    height: "120px",
+                    width: "auto",
+                    maxWidth: "100%",
+                    objectFit: "contain",
+                    marginBottom: "10px",
+                  }}
+                />
                 <p className="text-secondary">
                   Your trusted partner for professional AC services. We provide
                   expert repairs, maintenance, and installation for all air
@@ -1794,14 +1796,12 @@ export default function AirConditionerPage({
                       style={{ fontSize: "14px" }}
                     ></i>
                   </div>
-                  <div>
-                    <a
-                      href="tel:+919876543210"
-                      className="text-secondary text-decoration-none hover-link"
-                    >
-                      +91 98765 43210
-                    </a>
-                  </div>
+                  <a
+                    href="tel:+919876543210"
+                    className="text-secondary text-decoration-none hover-link"
+                  >
+                    +91 98765 43210
+                  </a>
                 </div>
 
                 <div className="d-flex align-items-center">
@@ -1818,18 +1818,17 @@ export default function AirConditionerPage({
                       style={{ fontSize: "14px" }}
                     ></i>
                   </div>
-                  <div>
-                    <a
-                      href="mailto:info@easyfixexpert.com"
-                      className="text-secondary text-decoration-none hover-link"
-                    >
-                      info@easyfixexpert.com
-                    </a>
-                  </div>
+                  <a
+                    href="mailto:info@easyfixexpert.com"
+                    className="text-secondary text-decoration-none hover-link"
+                  >
+                    info@easyfixexpert.com
+                  </a>
                 </div>
               </div>
             </div>
 
+            {/* Column 2: Quick Links */}
             <div className="col-lg-2 col-md-6">
               <div
                 style={{
@@ -1870,8 +1869,8 @@ export default function AirConditionerPage({
                 </ul>
               </div>
             </div>
-          </div>
-          <div>
+
+            {/* Column 3: Our Services */}
             <div className="col-lg-2 col-md-6">
               <div
                 style={{
@@ -1915,7 +1914,8 @@ export default function AirConditionerPage({
               </div>
             </div>
 
-            <div className="col-lg-4">
+            {/* Column 4: Newsletter */}
+            <div className="col-lg-4 col-md-12">
               <h5 className="fw-bold mb-4 text-dark">
                 Subscribe to Our Newsletter
               </h5>
@@ -1949,23 +1949,9 @@ export default function AirConditionerPage({
                     style={{
                       background: "linear-gradient(90deg, #8A2BE2, #DA70D6)",
                       color: "white",
-                      fontWeight: 600,
-                      border: "none",
-                      boxShadow: "0 4px 10px rgba(138, 43, 226, 0.2)",
-                      transition: "all 0.3s ease",
-                    }}
-                    onMouseOver={(e) => {
-                      e.currentTarget.style.transform = "translateY(-2px)";
-                      e.currentTarget.style.boxShadow =
-                        "0 6px 15px rgba(138, 43, 226, 0.3)";
-                    }}
-                    onMouseOut={(e) => {
-                      e.currentTarget.style.transform = "translateY(0)";
-                      e.currentTarget.style.boxShadow =
-                        "0 4px 10px rgba(138, 43, 226, 0.2)";
+                      fontWeight: "bold",
                     }}
                   >
-                    <i className="bi bi-send me-2"></i>
                     Subscribe
                   </button>
                 </div>
@@ -2043,6 +2029,7 @@ export default function AirConditionerPage({
             </div>
           </div>
         </div>
+
         <div
           className="py-4"
           style={{
