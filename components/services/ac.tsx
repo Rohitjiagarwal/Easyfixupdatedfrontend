@@ -750,7 +750,7 @@ export default function ACPage({
               Areas
             </h2>
             <p className="text-custom-light">
-              At srikk service centre, we offer a full range of professional air
+              At EasyFix Expert, we offer a full range of professional air
               conditioning services to ensure your home or business stays cool
               and comhtmlFortable throughout the year. From installation and
               repairs to routine maintenance, our expert technicians are

@@ -48,8 +48,9 @@ export default function Footer() {
                     />
                   </svg>
                 </span>
-                No:25, 1st Subramaniyapuram street, <br />
-                State Bank Road, <br /> Karaikudi
+                No:44, Veeramakaali Amman Kovil St,
+                <br />
+                Aranthangi, <br /> Pudukottai, Tamil Nadu 614616
               </li>
               <li>
                 <span className="iconcontainer">
@@ -65,8 +66,8 @@ export default function Footer() {
                     />
                   </svg>
                 </span>
-                <a href="mailto:info@easyfixexpert.com">
-                  info@easyfixexpert.com
+                <a href="mailto:cintact@easyfixexpert.com">
+                  contact@easyfixexpert.com
                 </a>
               </li>
             </ul>

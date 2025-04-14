@@ -5,9 +5,11 @@
       "line2": "State Bank Road,",
       "line3": "Karaikudi 630002",
       "mobileNumber0": "7904963384",
-      "mobileNumber1": "+91 9487663746",
-      "mobileNumber2": "+91 7904963384",
-      "postalCode": "630002"
+      "mobileNumber1": "+91 7904963384",
+      "mobileNumber2": "+91 9487663746",
+      "postalCode": "630002",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
     },
     "Madurai": {
       "line1": "#2, Anna Nagar,",
@@ -16,7 +18,9 @@
       "mobileNumber0": "123456789",
       "mobileNumber1": "+91 96266311221",
       "mobileNumber2": "+91 123456789",
-      "postalCode": "630005"
+      "postalCode": "630005",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
     },
     "Chennai": {
       "line1": "#3, T. Nagar,",
@@ -25,7 +29,9 @@
       "mobileNumber0": "123456789",
       "mobileNumber1": "+91 9976504544",
       "mobileNumber2": "+91 123456789",
-      "postalCode": "630005"
+      "postalCode": "630005",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
     },
     "Coimbatore": {
       "line1": "#4, Gandhipuram,",
@@ -34,7 +40,9 @@
       "mobileNumber0": "123456789",
       "mobileNumber1": "+91 9626631021",
       "mobileNumber2": "+91 123456789",
-      "postalCode": "630005"
+      "postalCode": "630005",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
     },
     "Tirupur": {
       "line1": "#5, Avinashi,",
@@ -43,7 +51,9 @@
       "mobileNumber0": "123456789",
       "mobileNumber1": "+91 9626631021",
       "mobileNumber2": "+91 123456789",
-      "postalCode": "630005"
+      "postalCode": "630005",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
     }
   }
 }

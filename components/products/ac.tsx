@@ -359,7 +359,7 @@ export default function AirConditionerPage({
                 </Link>
 
                 <a
-                  href="tel:+919876543210"
+                  href={`tel:${address.locations?.[city]?.mobileNumber0}`}
                   className="btn btn-lg btn-outline-primary px-4 py-3"
                   style={{
                     borderWidth: "2px",
@@ -991,11 +991,11 @@ export default function AirConditionerPage({
                         Or call us directly for personalized assistance
                         <br />
                         <a
-                          href="tel:+919876543210"
+                          href={`tel:${address.locations?.[city]?.mobileNumber1}`}
                           className="fw-bold text-decoration-none"
                           style={{ color: "#8A2BE2" }}
                         >
-                          +91 98765 43210
+                          {address.locations?.[city]?.mobileNumber1}
                         </a>
                       </p>
                     </div>
@@ -1703,7 +1703,7 @@ export default function AirConditionerPage({
                   src="/images/album/Logo_footer.png"
                   alt="EasyFix Expert Logo"
                   style={{
-                    height: "120px",
+                    height: "100px",
                     width: "auto",
                     maxWidth: "100%",
                     objectFit: "contain",
@@ -1719,9 +1719,33 @@ export default function AirConditionerPage({
 
               <div className="social-links mb-4">
                 <div className="d-flex gap-3">
-                  {["facebook", "twitter", "instagram", "linkedin"].map(
-                    (social, idx) => (
-                      <Link key={idx} href={`#${social}`} passHref>
+                  {[
+                    "facebook",
+                    "twitter",
+                    "instagram",
+                    "linkedin",
+                    "youtube",
+                  ].map((social, idx) => {
+                    // Handle custom URLs
+                    const href =
+                      social === "facebook"
+                        ? "https://facebook.com/537348479458036"
+                        : social === "linkedin"
+                        ? "https://www.linkedin.com/company/easyfix-expert"
+                        : social === "youtube"
+                        ? "https://www.youtube.com/@EasyFixExpert"
+                        : social === "twitter"
+                        ? "https://x.com/easyfixexpert?s=21&t=pug5qrRVnp7cy0tK8J1uIw"
+                        : `https://${social}.com/easyfixexpert`;
+
+                    return (
+                      <Link
+                        key={idx}
+                        href={href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        passHref
+                      >
                         <div
                           className="social-icon d-inline-flex align-items-center justify-content-center"
                           style={{
@@ -1753,8 +1777,8 @@ export default function AirConditionerPage({
                           <i className={`bi bi-${social}`}></i>
                         </div>
                       </Link>
-                    )
-                  )}
+                    );
+                  })}
                 </div>
               </div>
 
@@ -1797,10 +1821,10 @@ export default function AirConditionerPage({
                     ></i>
                   </div>
                   <a
-                    href="tel:+919876543210"
+                    href={`tel:${address.locations?.[city]?.mobileNumber0}`}
                     className="text-secondary text-decoration-none hover-link"
                   >
-                    +91 98765 43210
+                    {address.locations?.[city]?.mobileNumber1}
                   </a>
                 </div>
 
@@ -1819,10 +1843,10 @@ export default function AirConditionerPage({
                     ></i>
                   </div>
                   <a
-                    href="mailto:info@easyfixexpert.com"
+                    href="mailto:contact@easyfixexpert.com"
                     className="text-secondary text-decoration-none hover-link"
                   >
-                    info@easyfixexpert.com
+                    contact@easyfixexpert.com
                   </a>
                 </div>
               </div>
@@ -2059,6 +2083,28 @@ export default function AirConditionerPage({
               color: var(--primary-color) !important;
             }
           `}</style>
+        </div>
+        {/* Floating Call Button (Optional) */}
+        <div className="call-buton d-sm-none">
+          <a
+            className="cc-calto-action-ripple"
+            href={`tel:${address.locations?.[city]?.mobileNumber0}`}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="32"
+              height="32"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="#fff"
+                d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24c1.12.37 2.33.57 3.57.57c.55 0 1 .45 1 1V20c0 .55-.45 1-1 1c-9.39 0-17-7.61-17-17c0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1c0 1.25.2 2.45.57 3.57c.11.35.03.74-.25 1.02z"
+              />
+            </svg>
+            <span className="num ms-3">
+              {address.locations?.[city]?.mobileNumber0}
+            </span>
+          </a>
         </div>
       </footer>
     </>

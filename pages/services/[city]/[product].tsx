@@ -18,6 +18,7 @@ import ACPage from "@/components/services/ac";
 import WaterHeaterPage from "@/components/services/waterHeater";
 import OvenPage from "@/components/services/oven";
 import FridgePage from "@/components/services/fridge";
+import RefrigeratorPage from "@/components/services/refrigeration";
 import DishWasher from "@/components/services/dishWasher";
 import location from "../../../public/dataStore/locations.json"; // Import the location object
 import address from "../../../public/dataStore/addresses.json"; // Import the location object
@@ -35,6 +36,8 @@ export async function getStaticPaths() {
     "dishWasher",
     "oven",
     "waterHeater",
+    "Refrigeration,",
+    "Refrigerator",
   ];
 
   const paths: {
@@ -94,10 +97,20 @@ export default function ServicecenterPage({
   const { city, product } = params;
 
   const formattedProduct =
-    product === "WashingMachine"
-      ? "Washing Machine"
-      : product === "waterHeater"
-      ? "Water Heater Geyser"
+    product === "WashingMachineservicecenter"
+      ? "Washing Machine Service Center"
+      : product === "waterHeaterservicecenter"
+      ? "Water Heater Geyser Service Center"
+      : product === "dishWasherservicecenter"
+      ? "Dish washer Service Center"
+      : product === "ACservicecenter"
+      ? "AC Service Center"
+      : product === "ovenservicecenter"
+      ? "Oven Service Center"
+      : product === "Fridgeservicecenter"
+      ? "Fridge Service Center"
+      : product === "refrigerationservicecenter"
+      ? "Refrigerator Service Center"
       : product;
 
   // Set the page title dynamically
@@ -112,7 +125,7 @@ export default function ServicecenterPage({
         {/* Meta description */}
         <meta
           name="description"
-          content={`Get Upto 50% Off Installation, Maintenance, and More! Fast & Expert ${product} Service Near You. Call Now for Affordable Repairs & Solutions!`}
+          content={`Get Upto 50% Off Installation, Maintenance, and More! Fast & Expert ${formattedProduct} Service Near You. Call Now for Affordable Repairs & Solutions!`}
         />
 
         {/* Viewport for responsive design */}
@@ -121,7 +134,7 @@ export default function ServicecenterPage({
         {/* Keywords */}
         <meta
           name="keywords"
-          content={`${product} service in ${city}, ${product} repair in ${city}, expert ${product} repair, affordable ${product} services in ${city}`}
+          content={`${product} service in ${city}, ${formattedProduct} repair in ${city}, expert ${formattedProduct} repair, affordable ${formattedProduct} services in ${city}`}
         />
 
         {/* Author Meta Tag */}
@@ -142,34 +155,69 @@ export default function ServicecenterPage({
         {/* Robots Meta Tag */}
         <meta name="robots" content="index, follow" />
 
-        {/* Structured Data (JSON-LD) */}
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/images/album/favicon//apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/images/album/favicon/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/images/album/favicon/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+
+        {/* Structured Data (JSON-LD) for Service, Ratings, Address, and Mobile Number */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "http://schema.org",
-              "@type": "Service",
-              name: `Best ${product} Service & Repair in ${city}`,
-              provider: {
-                "@type": "Organization",
-                name: "EasyFix Expert",
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress: `${address.locations?.[city]?.line1} ${address.locations?.[city]?.line2} ${address.locations?.[city]?.line3}`,
-                  addressLocality: city,
-                  addressRegion: "Tamil Nadu",
-                  postalCode: address.locations?.[city]?.postalCode,
-                  addressCountry: "IN",
-                },
-                telephone: address.locations?.[city]?.mobileNumber1,
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: `EasyFix Expert - ${formattedProduct} Service Center in ${city}`,
+              description: `Get reliable and affordable ${formattedProduct} repair and service in ${city}. EasyFix Expert offers fast doorstep service, trained technicians, and genuine spare parts.`,
+              image: "https://www.easyfixexpert.com/assets/logo.png",
+              url: `https://www.easyfixexpert.com/${city}/${product}`,
+              telephone: address.locations?.[city]?.mobileNumber1,
+              priceRange: "₹99",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: `${address.locations?.[city]?.line1} ${address.locations?.[city]?.line2} ${address.locations?.[city]?.line3}`,
+                addressLocality: city,
+                addressRegion: "Tamil Nadu",
+                postalCode: address.locations?.[city]?.postalCode,
+                addressCountry: "IN",
               },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: address.locations?.[city]?.latitude || "10.9601", // fallback for Karaikudi
+                longitude: address.locations?.[city]?.longitude || "78.0766",
+              },
+              openingHours: "Mo-Sa 09:00-18:00",
               aggregateRating: {
                 "@type": "AggregateRating",
-                ratingValue: "4.5",
-                reviewCount: "43678",
+                ratingValue: "4.8",
+                reviewCount: "3678",
               },
-              priceRange: "₹₹",
-              url: `https://www.easyfixexpert.com/${city}/${product}`,
+              makesOffer: {
+                "@type": "Offer",
+                itemOffered: {
+                  "@type": "Service",
+                  name: `${formattedProduct} Service & Repair`,
+                  description: `Top${formattedProduct} service and repair solutions available in ${city}. Book online or call now for fast assistance.`,
+                },
+              },
+              sameAs: [
+                "https://www.facebook.com/easyfixexpert",
+                "https://www.instagram.com/easyfixexpert",
+              ],
             }),
           }}
         />
@@ -191,6 +239,9 @@ export default function ServicecenterPage({
       )}
       {product === "dishWasherservicecenter" && (
         <DishWasher city={city} brand="generic" />
+      )}
+      {product === "refrigerationservicecenter" && (
+        <RefrigeratorPage city={city} brand="generic" />
       )}
     </>
   );

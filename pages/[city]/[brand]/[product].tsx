@@ -51,7 +51,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
   return {
     paths,
-    fallback: "blocking", // or fallback: true
+    fallback: "blocking", // no quotes!
   };
 };
 
@@ -165,29 +165,45 @@ export default function DetailPage({
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
-              "@context": "http://schema.org",
-              "@type": "Service",
-              name: `Best ${brand} ${product} Service & Repair in ${city}`,
-              provider: {
-                "@type": "Organization",
-                name: "EasyFix Expert",
-                address: {
-                  "@type": "PostalAddress",
-                  streetAddress: `${address.locations?.[city]?.line1} ${address.locations?.[city]?.line2} ${address.locations?.[city]?.line3}`,
-                  addressLocality: city,
-                  addressRegion: "Tamil Nadu",
-                  postalCode: address.locations?.[city]?.postalCode,
-                  addressCountry: "IN",
-                },
-                telephone: address.locations?.[city]?.mobileNumber1,
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: `EasyFix Expert - ${brand} ${product} Service Center in ${city}`,
+              description: `Get reliable and affordable ${brand} ${product} repair and service in ${city}. EasyFix Expert offers fast doorstep service, trained technicians, and genuine spare parts.`,
+              image: "https://www.easyfixexpert.com/assets/logo.png",
+              url: `https://www.easyfixexpert.com/${city}/${brand}/${product}`,
+              telephone: address.locations?.[city]?.mobileNumber1,
+              priceRange: "₹99",
+              address: {
+                "@type": "PostalAddress",
+                streetAddress: `${address.locations?.[city]?.line1} ${address.locations?.[city]?.line2} ${address.locations?.[city]?.line3}`,
+                addressLocality: city,
+                addressRegion: "Tamil Nadu",
+                postalCode: address.locations?.[city]?.postalCode,
+                addressCountry: "IN",
               },
+              geo: {
+                "@type": "GeoCoordinates",
+                latitude: address.locations?.[city]?.latitude || "10.9601", // fallback for Karaikudi
+                longitude: address.locations?.[city]?.longitude || "78.0766",
+              },
+              openingHours: "Mo-Sa 09:00-18:00",
               aggregateRating: {
                 "@type": "AggregateRating",
-                ratingValue: "4.5",
-                reviewCount: "43678",
+                ratingValue: "4.8",
+                reviewCount: "3678",
               },
-              priceRange: "₹₹",
-              url: `https://www.easyfixexpert.com/${city}/${brand}/${product}`,
+              makesOffer: {
+                "@type": "Offer",
+                itemOffered: {
+                  "@type": "Service",
+                  name: `${brand} ${product} Service & Repair`,
+                  description: `Top ${brand} ${product} service and repair solutions available in ${city}. Book online or call now for fast assistance.`,
+                },
+              },
+              sameAs: [
+                "https://www.facebook.com/easyfixexpert",
+                "https://www.instagram.com/easyfixexpert",
+              ],
             }),
           }}
         />
