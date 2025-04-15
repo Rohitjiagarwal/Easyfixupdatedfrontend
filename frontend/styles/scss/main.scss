@@ -434,7 +434,7 @@ $prefix: 'bs-';
         left: 0;
         width: 100%;
         height: 100px;
-        background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23007bff' fill-opacity='0.2' d='M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,213.3C672,224,768,224,864,208C960,192,1056,160,1152,149.3C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
+        background: url("data:image/svg+xml,%3Csvg xmlns='++http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23007bff' fill-opacity='0.2' d='M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,213.3C672,224,768,224,864,208C960,192,1056,160,1152,149.3C1248,139,1344,149,1392,154.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z'%3E%3C/path%3E%3C/svg%3E");
         background-size: cover;
         z-index: 0;
     }
@@ -598,32 +598,153 @@ $prefix: 'bs-';
 }
 
 .aboutus {
-    h6 {
-        @extend .section-title;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f9fafb 0%, #e6f0ff 100%);
+    padding: 4rem 0;
+
+    // Decorative Background Shapes
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10%;
+        left: 5%;
+        width: 100px;
+        height: 100px;
+        background: rgba(0, 123, 255, 0.1);
+        border-radius: 50%;
+        animation: float 6s ease-in-out infinite;
     }
 
-    .aboutus-img {
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 15%;
+        right: 10%;
+        width: 80px;
+        height: 80px;
+        background: rgba(0, 123, 255, 0.1);
+        border-radius: 50%;
+        animation: float 8s ease-in-out infinite;
+        animation-delay: 2s;
+    }
+
+    .aboutus-carousel {
         border-radius: var(--sk-border-radius);
-        background-position: center;
-        background-size: cover;
-        object-fit: cover;
-        background-repeat: no-repeat;
-        min-height: 90vh;
+        overflow: hidden;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+
+        .swiper-button-prev,
+        .swiper-button-next {
+            color: var(--bs-primary);
+            background: rgba(255, 255, 255, 0.8);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: background 0.3s ease;
+
+            &:hover {
+                background: var(--bs-primary);
+                color: #fff;
+            }
+        }
+
+        .swiper-pagination-bullet {
+            background: var(--bs-primary);
+            opacity: 0.5;
+            &.swiper-pagination-bullet-active {
+                opacity: 1;
+            }
+        }
+    }
+
+    .aboutus-image {
+        transition: transform 0.3s ease;
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .aboutus-content {
+        position: relative;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .btn-with-icon {
+            padding: 0.8rem 1.5rem;
+            font-weight: 600;
+            border-radius: 2rem;
+            transition: transform 0.2s ease, background-color 0.3s ease;
+
+            &:hover {
+                transform: scale(1.05);
+                background-color: darken(#007bff, 10%);
+            }
+
+            span {
+                margin-right: 0.5rem;
+                padding: 0.5rem;
+            }
+        }
     }
 
     .milestones-temp {
-        margin-top: calc(var(--bs-gutter-x) * 1);
+        position: relative;
+        overflow: hidden;
+        background: var(--bs-primary);
+        color: #fff;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
 
         .counter {
-            text-align: center;
-
             h2 {
-                color: var(--bs-primary);
+                font-size: 3rem;
+                font-weight: bold;
+                margin-bottom: 0.5rem;
             }
 
             p {
-                @extend .text-custom-light;
-                margin: 0;
+                text-transform: uppercase;
+                font-size: 0.9rem;
+                color: rgba(255, 255, 255, 0.8);
+            }
+        }
+    }
+
+    .testimonials-carousel {
+        .testimonial-card {
+            background: #fff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            &:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            }
+
+            img {
+                border: 2px solid var(--bs-primary);
+            }
+
+            p {
+                font-size: 1rem;
+                color: #34495e;
+            }
+
+            h6 {
+                color: var(--bs-primary);
+            }
+        }
+
+        .swiper-pagination-bullet {
+            background: var(--bs-primary);
+            opacity: 0.5;
+            &.swiper-pagination-bullet-active {
+                opacity: 1;
             }
         }
     }
@@ -1129,5 +1250,214 @@ section.breadcrumb {
 
     100% {
         transform: rotate(360deg);
+    }
+}
+
+// Counter Animation
+.counter-animation {
+    .counter h2 {
+        transition: all 2s ease-in-out;
+    }
+}
+.milestones-temp {
+    position: relative;
+    overflow: hidden;
+    background: var(--bs-primary);
+    color: #fff;
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  
+    .counter {
+      h2 {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+  
+      p {
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        color: rgba(255, 255, 255, 0.8);
+      }
+    }
+  }
+  .milestones-temp {
+    position: relative;
+    overflow: hidden;
+    background: var(--bs-primary) !important; // Enforce primary color (should be blue)
+    color: #fff !important; // Ensure text is white
+    transition: transform 0.3s ease;
+    border-radius: var(--sk-border-radius);
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  
+    .milestones-content {
+      .counter {
+        h2 {
+          font-size: 3rem !important; // Enforce larger font size
+          font-weight: bold !important;
+          color: #fff !important; // White numbers (matches screenshot)
+          margin-bottom: 0.5rem;
+        }
+  
+        p {
+          text-transform: uppercase;
+          font-size: 0.9rem !important; // Enforce smaller font for labels
+          color: rgba(255, 255, 255, 0.8) !important; // Slightly faded white
+        }
+      }
+    }
+  }
+
+  .services {
+    .explore-icon {
+        display: inline-grid;
+        place-content: center;
+        background: var(--bs-primary);
+        height: 52px;
+        aspect-ratio: 1;
+        border-radius: 50rem;
+
+        svg {
+            animation: rotate 2s linear infinite;
+        }
+    }
+}
+
+.services {
+    background: linear-gradient(135deg, #f5f7fa, #e4e9ff); // Minimalistic gradient background
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+
+    .background-gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(135deg, rgba(238, 241, 255, 0.5), rgba(255, 255, 255, 0.8));
+        z-index: -1;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .explore-icon {
+        display: inline-grid;
+        place-content: center;
+        background: var(--bs-primary);
+        height: 52px;
+        aspect-ratio: 1;
+        border-radius: 50rem;
+
+        .icon {
+            display: inline-block;
+            transition: transform 0.5s ease; // For rotation animation on hover (handled by framer-motion)
+        }
+    }
+}
+
+.services {
+    .icon-box {
+        height: 54px;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background-color: var(--bs-primary);
+        display: grid;
+        place-content: center;
+        margin-bottom: 2rem;
+    }
+}
+
+.services {
+    .service-card {
+        background: rgba(255, 255, 255, 0.9); // Semi-transparent white background
+        backdrop-filter: blur(10px); // Frosted glass effect
+        padding: 1.5rem;
+        @extend .custom-border-radius;
+        height: 100%;
+        border: none;
+        transition: all 0.3s ease;
+
+        &:hover {
+            .icon-box {
+                transform: rotate(10deg); // Subtle rotation on hover
+            }
+        }
+
+        .services-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            .service-title {
+                margin-bottom: 0.75rem;
+            }
+
+            p {
+                margin-bottom: 1rem;
+            }
+
+            .chips-box {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 0.5rem;
+                margin-bottom: 1rem;
+
+                .chips {
+                    border: 1px solid #f1f3ff;
+                    background-color: #f1f3ff;
+                    color: #333;
+                    padding: 0.5rem 1rem;
+                    font-size: 14px;
+                    border-radius: 50rem;
+                    transition: background-color 0.3s ease, color 0.3s ease;
+
+                    &:hover {
+                        background-color: #2575fc;
+                        color: #fff;
+                    }
+                }
+            }
+
+            .btn-outline-primary {
+                border-color: #2575fc;
+                color: #2575fc;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    background: #2575fc;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.services {
+    .btn-primary {
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        border: none;
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+        border-radius: 2rem;
+        transition:  0.3s ease;
+
+        &:hover {
+            background: linear-gradient(135deg, #2575fc, #6a11cb);
+        }
     }
 }
