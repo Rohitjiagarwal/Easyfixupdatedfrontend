@@ -187,7 +187,7 @@ export default function AboutUs() {
                       className="rounded-circle mb-3"
                       alt={testimonial.name}
                     />
-                    <p className="fst-italic">"{testimonial.text}"</p>
+                    <p className="fst-italic">{testimonial.text}</p>
                     <h6 className="fw-bold">{testimonial.name}</h6>
                   </div>
                 </SwiperSlide>
