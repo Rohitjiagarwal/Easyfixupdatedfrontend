@@ -54,400 +54,10 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/services/Karaikudi/ACservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Karaikudi/ACservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Karaikudi/Fridgeservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Karaikudi/Fridgeservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Karaikudi/WashingMachineservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Karaikudi/WashingMachineservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Karaikudi/dishWasherservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Karaikudi/dishWasherservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Karaikudi/ovenservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Karaikudi/ovenservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Karaikudi/waterHeaterservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Karaikudi/waterHeaterservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Madurai/ACservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Madurai/ACservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Madurai/Fridgeservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Madurai/Fridgeservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Madurai/WashingMachineservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Madurai/WashingMachineservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Madurai/dishWasherservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Madurai/dishWasherservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Madurai/ovenservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Madurai/ovenservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Madurai/waterHeaterservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Madurai/waterHeaterservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Chennai/ACservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Chennai/ACservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Chennai/Fridgeservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Chennai/Fridgeservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Chennai/WashingMachineservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Chennai/WashingMachineservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Chennai/dishWasherservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Chennai/dishWasherservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Chennai/ovenservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Chennai/ovenservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Chennai/waterHeaterservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Chennai/waterHeaterservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Coimbatore/ACservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Coimbatore/ACservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Coimbatore/Fridgeservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Coimbatore/Fridgeservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Coimbatore/WashingMachineservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Coimbatore/WashingMachineservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Coimbatore/dishWasherservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Coimbatore/dishWasherservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Coimbatore/ovenservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Coimbatore/ovenservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Coimbatore/waterHeaterservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Coimbatore/waterHeaterservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Tirpur/ACservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Tirpur/ACservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Tirpur/Fridgeservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Tirpur/Fridgeservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Tirpur/WashingMachineservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Tirpur/WashingMachineservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Tirpur/dishWasherservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Tirpur/dishWasherservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Tirpur/ovenservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Tirpur/ovenservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
-    "/services/Tirpur/waterHeaterservicecenter": {
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/services/[city]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/Tirpur/waterHeaterservicecenter.json",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/Karaikudi/Daikin/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Daikin/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Daikin/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -460,7 +70,7 @@
     "/Karaikudi/Daikin/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Daikin/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Daikin/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -473,7 +83,7 @@
     "/Karaikudi/Daikin/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Daikin/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Daikin/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -486,7 +96,7 @@
     "/Karaikudi/Daikin/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Daikin/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Daikin/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -499,7 +109,7 @@
     "/Karaikudi/Daikin/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Daikin/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Daikin/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -512,7 +122,7 @@
     "/Karaikudi/Daikin/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Daikin/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Daikin/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -525,7 +135,7 @@
     "/Karaikudi/Samsung/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Samsung/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Samsung/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -538,7 +148,7 @@
     "/Karaikudi/Samsung/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Samsung/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Samsung/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -551,7 +161,7 @@
     "/Karaikudi/Samsung/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Samsung/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Samsung/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -564,7 +174,7 @@
     "/Karaikudi/Samsung/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Samsung/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Samsung/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -577,7 +187,7 @@
     "/Karaikudi/Samsung/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Samsung/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Samsung/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -590,7 +200,7 @@
     "/Karaikudi/Samsung/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Samsung/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Samsung/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -603,7 +213,7 @@
     "/Karaikudi/LG/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/LG/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/LG/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -616,7 +226,7 @@
     "/Karaikudi/LG/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/LG/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/LG/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -629,7 +239,7 @@
     "/Karaikudi/LG/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/LG/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/LG/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -642,7 +252,7 @@
     "/Karaikudi/LG/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/LG/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/LG/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -655,7 +265,7 @@
     "/Karaikudi/LG/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/LG/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/LG/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -668,7 +278,7 @@
     "/Karaikudi/LG/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/LG/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/LG/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -681,7 +291,7 @@
     "/Karaikudi/Whirlpool/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Whirlpool/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Whirlpool/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -694,7 +304,7 @@
     "/Karaikudi/Whirlpool/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Whirlpool/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Whirlpool/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -707,7 +317,7 @@
     "/Karaikudi/Whirlpool/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Whirlpool/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Whirlpool/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -720,7 +330,7 @@
     "/Karaikudi/Whirlpool/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Whirlpool/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Whirlpool/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -733,7 +343,7 @@
     "/Karaikudi/Whirlpool/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Whirlpool/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Whirlpool/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -746,7 +356,7 @@
     "/Karaikudi/Whirlpool/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Whirlpool/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Whirlpool/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -759,7 +369,7 @@
     "/Karaikudi/Godrej/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Godrej/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Godrej/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -772,7 +382,7 @@
     "/Karaikudi/Godrej/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Godrej/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Godrej/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -785,7 +395,7 @@
     "/Karaikudi/Godrej/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Godrej/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Godrej/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -798,7 +408,7 @@
     "/Karaikudi/Godrej/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Godrej/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Godrej/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -811,7 +421,7 @@
     "/Karaikudi/Godrej/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Godrej/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Godrej/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -824,7 +434,7 @@
     "/Karaikudi/Godrej/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Karaikudi/Godrej/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Karaikudi/Godrej/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -837,7 +447,7 @@
     "/Madurai/Daikin/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Daikin/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Daikin/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -850,7 +460,7 @@
     "/Madurai/Daikin/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Daikin/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Daikin/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -863,7 +473,7 @@
     "/Madurai/Daikin/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Daikin/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Daikin/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -876,7 +486,7 @@
     "/Madurai/Daikin/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Daikin/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Daikin/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -889,7 +499,7 @@
     "/Madurai/Daikin/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Daikin/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Daikin/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -902,7 +512,7 @@
     "/Madurai/Daikin/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Daikin/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Daikin/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -915,7 +525,7 @@
     "/Madurai/Samsung/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Samsung/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Samsung/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -928,7 +538,7 @@
     "/Madurai/Samsung/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Samsung/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Samsung/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -941,7 +551,7 @@
     "/Madurai/Samsung/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Samsung/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Samsung/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -954,7 +564,7 @@
     "/Madurai/Samsung/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Samsung/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Samsung/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -967,7 +577,7 @@
     "/Madurai/Samsung/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Samsung/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Samsung/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -980,7 +590,7 @@
     "/Madurai/Samsung/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Samsung/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Samsung/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -993,7 +603,7 @@
     "/Madurai/LG/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/LG/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/LG/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1006,7 +616,7 @@
     "/Madurai/LG/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/LG/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/LG/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1019,7 +629,7 @@
     "/Madurai/LG/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/LG/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/LG/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1032,7 +642,7 @@
     "/Madurai/LG/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/LG/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/LG/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1045,7 +655,7 @@
     "/Madurai/LG/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/LG/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/LG/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1058,7 +668,7 @@
     "/Madurai/LG/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/LG/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/LG/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1071,7 +681,7 @@
     "/Madurai/Whirlpool/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Whirlpool/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Whirlpool/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1084,7 +694,7 @@
     "/Madurai/Whirlpool/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Whirlpool/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Whirlpool/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1097,7 +707,7 @@
     "/Madurai/Whirlpool/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Whirlpool/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Whirlpool/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1110,7 +720,7 @@
     "/Madurai/Whirlpool/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Whirlpool/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Whirlpool/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1123,7 +733,7 @@
     "/Madurai/Whirlpool/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Whirlpool/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Whirlpool/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1136,7 +746,7 @@
     "/Madurai/Whirlpool/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Whirlpool/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Whirlpool/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1149,7 +759,7 @@
     "/Madurai/Godrej/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Godrej/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Godrej/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1162,7 +772,7 @@
     "/Madurai/Godrej/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Godrej/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Godrej/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1175,7 +785,7 @@
     "/Madurai/Godrej/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Godrej/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Godrej/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1188,7 +798,7 @@
     "/Madurai/Godrej/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Godrej/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Godrej/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1201,7 +811,7 @@
     "/Madurai/Godrej/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Godrej/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Godrej/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1214,7 +824,7 @@
     "/Madurai/Godrej/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Madurai/Godrej/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Madurai/Godrej/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1227,7 +837,7 @@
     "/Chennai/Daikin/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Daikin/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Daikin/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1240,7 +850,7 @@
     "/Chennai/Daikin/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Daikin/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Daikin/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1253,7 +863,7 @@
     "/Chennai/Daikin/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Daikin/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Daikin/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1266,7 +876,7 @@
     "/Chennai/Daikin/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Daikin/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Daikin/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1279,7 +889,7 @@
     "/Chennai/Daikin/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Daikin/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Daikin/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1292,7 +902,7 @@
     "/Chennai/Daikin/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Daikin/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Daikin/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1305,7 +915,7 @@
     "/Chennai/Samsung/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Samsung/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Samsung/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1318,7 +928,7 @@
     "/Chennai/Samsung/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Samsung/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Samsung/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1331,7 +941,7 @@
     "/Chennai/Samsung/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Samsung/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Samsung/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1344,7 +954,7 @@
     "/Chennai/Samsung/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Samsung/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Samsung/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1357,7 +967,7 @@
     "/Chennai/Samsung/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Samsung/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Samsung/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1370,7 +980,7 @@
     "/Chennai/Samsung/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Samsung/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Samsung/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1383,7 +993,7 @@
     "/Chennai/LG/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/LG/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/LG/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1396,7 +1006,7 @@
     "/Chennai/LG/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/LG/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/LG/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1409,7 +1019,7 @@
     "/Chennai/LG/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/LG/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/LG/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1422,7 +1032,7 @@
     "/Chennai/LG/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/LG/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/LG/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1435,7 +1045,7 @@
     "/Chennai/LG/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/LG/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/LG/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1448,7 +1058,7 @@
     "/Chennai/LG/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/LG/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/LG/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1461,7 +1071,7 @@
     "/Chennai/Whirlpool/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Whirlpool/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Whirlpool/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1474,7 +1084,7 @@
     "/Chennai/Whirlpool/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Whirlpool/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Whirlpool/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1487,7 +1097,7 @@
     "/Chennai/Whirlpool/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Whirlpool/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Whirlpool/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1500,7 +1110,7 @@
     "/Chennai/Whirlpool/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Whirlpool/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Whirlpool/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1513,7 +1123,7 @@
     "/Chennai/Whirlpool/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Whirlpool/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Whirlpool/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1526,7 +1136,7 @@
     "/Chennai/Whirlpool/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Whirlpool/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Whirlpool/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1539,7 +1149,7 @@
     "/Chennai/Godrej/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Godrej/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Godrej/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1552,7 +1162,7 @@
     "/Chennai/Godrej/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Godrej/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Godrej/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1565,7 +1175,7 @@
     "/Chennai/Godrej/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Godrej/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Godrej/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1578,7 +1188,7 @@
     "/Chennai/Godrej/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Godrej/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Godrej/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1591,7 +1201,7 @@
     "/Chennai/Godrej/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Godrej/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Godrej/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1604,7 +1214,7 @@
     "/Chennai/Godrej/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Chennai/Godrej/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Chennai/Godrej/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1617,7 +1227,7 @@
     "/Coimbatore/Daikin/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Daikin/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Daikin/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1630,7 +1240,7 @@
     "/Coimbatore/Daikin/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Daikin/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Daikin/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1643,7 +1253,7 @@
     "/Coimbatore/Daikin/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Daikin/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Daikin/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1656,7 +1266,7 @@
     "/Coimbatore/Daikin/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Daikin/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Daikin/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1669,7 +1279,7 @@
     "/Coimbatore/Daikin/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Daikin/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Daikin/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1682,7 +1292,7 @@
     "/Coimbatore/Daikin/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Daikin/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Daikin/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1695,7 +1305,7 @@
     "/Coimbatore/Samsung/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Samsung/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Samsung/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1708,7 +1318,7 @@
     "/Coimbatore/Samsung/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Samsung/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Samsung/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1721,7 +1331,7 @@
     "/Coimbatore/Samsung/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Samsung/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Samsung/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1734,7 +1344,7 @@
     "/Coimbatore/Samsung/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Samsung/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Samsung/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1747,7 +1357,7 @@
     "/Coimbatore/Samsung/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Samsung/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Samsung/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1760,7 +1370,7 @@
     "/Coimbatore/Samsung/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Samsung/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Samsung/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1773,7 +1383,7 @@
     "/Coimbatore/LG/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/LG/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/LG/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1786,7 +1396,7 @@
     "/Coimbatore/LG/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/LG/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/LG/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1799,7 +1409,7 @@
     "/Coimbatore/LG/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/LG/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/LG/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1812,7 +1422,7 @@
     "/Coimbatore/LG/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/LG/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/LG/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1825,7 +1435,7 @@
     "/Coimbatore/LG/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/LG/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/LG/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1838,7 +1448,7 @@
     "/Coimbatore/LG/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/LG/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/LG/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1851,7 +1461,7 @@
     "/Coimbatore/Whirlpool/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Whirlpool/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Whirlpool/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1864,7 +1474,7 @@
     "/Coimbatore/Whirlpool/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Whirlpool/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Whirlpool/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1877,7 +1487,7 @@
     "/Coimbatore/Whirlpool/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Whirlpool/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Whirlpool/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1890,7 +1500,7 @@
     "/Coimbatore/Whirlpool/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Whirlpool/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Whirlpool/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1903,7 +1513,7 @@
     "/Coimbatore/Whirlpool/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Whirlpool/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Whirlpool/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1916,7 +1526,7 @@
     "/Coimbatore/Whirlpool/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Whirlpool/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Whirlpool/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1929,7 +1539,7 @@
     "/Coimbatore/Godrej/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Godrej/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Godrej/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1942,7 +1552,7 @@
     "/Coimbatore/Godrej/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Godrej/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Godrej/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1955,7 +1565,7 @@
     "/Coimbatore/Godrej/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Godrej/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Godrej/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1968,7 +1578,7 @@
     "/Coimbatore/Godrej/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Godrej/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Godrej/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1981,7 +1591,7 @@
     "/Coimbatore/Godrej/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Godrej/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Godrej/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -1994,7 +1604,7 @@
     "/Coimbatore/Godrej/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Coimbatore/Godrej/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Coimbatore/Godrej/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2007,7 +1617,7 @@
     "/Tirpur/Daikin/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Daikin/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Daikin/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2020,7 +1630,7 @@
     "/Tirpur/Daikin/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Daikin/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Daikin/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2033,7 +1643,7 @@
     "/Tirpur/Daikin/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Daikin/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Daikin/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2046,7 +1656,7 @@
     "/Tirpur/Daikin/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Daikin/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Daikin/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2059,7 +1669,7 @@
     "/Tirpur/Daikin/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Daikin/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Daikin/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2072,7 +1682,7 @@
     "/Tirpur/Daikin/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Daikin/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Daikin/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2085,7 +1695,7 @@
     "/Tirpur/Samsung/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Samsung/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Samsung/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2098,7 +1708,7 @@
     "/Tirpur/Samsung/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Samsung/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Samsung/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2111,7 +1721,7 @@
     "/Tirpur/Samsung/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Samsung/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Samsung/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2124,7 +1734,7 @@
     "/Tirpur/Samsung/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Samsung/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Samsung/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2137,7 +1747,7 @@
     "/Tirpur/Samsung/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Samsung/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Samsung/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2150,7 +1760,7 @@
     "/Tirpur/Samsung/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Samsung/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Samsung/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2163,7 +1773,7 @@
     "/Tirpur/LG/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/LG/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/LG/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2176,7 +1786,7 @@
     "/Tirpur/LG/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/LG/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/LG/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2189,7 +1799,7 @@
     "/Tirpur/LG/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/LG/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/LG/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2202,7 +1812,7 @@
     "/Tirpur/LG/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/LG/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/LG/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2215,7 +1825,7 @@
     "/Tirpur/LG/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/LG/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/LG/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2228,7 +1838,7 @@
     "/Tirpur/LG/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/LG/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/LG/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2241,7 +1851,7 @@
     "/Tirpur/Whirlpool/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Whirlpool/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Whirlpool/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2254,7 +1864,7 @@
     "/Tirpur/Whirlpool/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Whirlpool/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Whirlpool/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2267,7 +1877,7 @@
     "/Tirpur/Whirlpool/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Whirlpool/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Whirlpool/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2280,7 +1890,7 @@
     "/Tirpur/Whirlpool/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Whirlpool/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Whirlpool/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2293,7 +1903,7 @@
     "/Tirpur/Whirlpool/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Whirlpool/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Whirlpool/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2306,7 +1916,7 @@
     "/Tirpur/Whirlpool/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Whirlpool/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Whirlpool/waterHeater.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2319,7 +1929,7 @@
     "/Tirpur/Godrej/AC": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Godrej/AC.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Godrej/AC.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2332,7 +1942,7 @@
     "/Tirpur/Godrej/Fridge": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Godrej/Fridge.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Godrej/Fridge.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2345,7 +1955,7 @@
     "/Tirpur/Godrej/WashingMachine": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Godrej/WashingMachine.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Godrej/WashingMachine.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2358,7 +1968,7 @@
     "/Tirpur/Godrej/dishWasher": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Godrej/dishWasher.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Godrej/dishWasher.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2371,7 +1981,7 @@
     "/Tirpur/Godrej/oven": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Godrej/oven.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Godrej/oven.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2384,7 +1994,397 @@
     "/Tirpur/Godrej/waterHeater": {
       "initialRevalidateSeconds": false,
       "srcRoute": "/[city]/[brand]/[product]",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/Tirpur/Godrej/waterHeater.json",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/Tirpur/Godrej/waterHeater.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Karaikudi/ACservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Karaikudi/ACservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Karaikudi/Fridgeservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Karaikudi/Fridgeservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Karaikudi/WashingMachineservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Karaikudi/WashingMachineservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Karaikudi/dishWasherservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Karaikudi/dishWasherservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Karaikudi/ovenservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Karaikudi/ovenservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Karaikudi/waterHeaterservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Karaikudi/waterHeaterservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Madurai/ACservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Madurai/ACservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Madurai/Fridgeservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Madurai/Fridgeservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Madurai/WashingMachineservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Madurai/WashingMachineservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Madurai/dishWasherservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Madurai/dishWasherservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Madurai/ovenservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Madurai/ovenservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Madurai/waterHeaterservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Madurai/waterHeaterservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Chennai/ACservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Chennai/ACservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Chennai/Fridgeservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Chennai/Fridgeservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Chennai/WashingMachineservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Chennai/WashingMachineservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Chennai/dishWasherservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Chennai/dishWasherservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Chennai/ovenservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Chennai/ovenservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Chennai/waterHeaterservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Chennai/waterHeaterservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Coimbatore/ACservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Coimbatore/ACservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Coimbatore/Fridgeservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Coimbatore/Fridgeservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Coimbatore/WashingMachineservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Coimbatore/WashingMachineservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Coimbatore/dishWasherservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Coimbatore/dishWasherservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Coimbatore/ovenservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Coimbatore/ovenservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Coimbatore/waterHeaterservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Coimbatore/waterHeaterservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Tirpur/ACservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Tirpur/ACservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Tirpur/Fridgeservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Tirpur/Fridgeservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Tirpur/WashingMachineservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Tirpur/WashingMachineservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Tirpur/dishWasherservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Tirpur/dishWasherservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Tirpur/ovenservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Tirpur/ovenservicecenter.json",
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/services/Tirpur/waterHeaterservicecenter": {
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/services/[city]/[product]",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/Tirpur/waterHeaterservicecenter.json",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2396,11 +2396,11 @@
     }
   },
   "dynamicRoutes": {
-    "/services/[city]/[product]": {
-      "routeRegex": "^/services/([^/]+?)/([^/]+?)(?:/)?$",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/services/[city]/[product].json",
+    "/[city]/[brand]/[product]": {
+      "routeRegex": "^/([^/]+?)/([^/]+?)/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/[city]/[brand]/[product].json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/SOEDHaA0BHAj4SaysEGYe/services/([^/]+?)/([^/]+?)\\.json$",
+      "dataRouteRegex": "^/_next/data/Dn79\\-GvpYXlXaebB4YQr3/([^/]+?)/([^/]+?)/([^/]+?)\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2410,11 +2410,11 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/[city]/[brand]/[product]": {
-      "routeRegex": "^/([^/]+?)/([^/]+?)/([^/]+?)(?:/)?$",
-      "dataRoute": "/_next/data/SOEDHaA0BHAj4SaysEGYe/[city]/[brand]/[product].json",
+    "/services/[city]/[product]": {
+      "routeRegex": "^/services/([^/]+?)/([^/]+?)(?:/)?$",
+      "dataRoute": "/_next/data/Dn79-GvpYXlXaebB4YQr3/services/[city]/[product].json",
       "fallback": false,
-      "dataRouteRegex": "^/_next/data/SOEDHaA0BHAj4SaysEGYe/([^/]+?)/([^/]+?)/([^/]+?)\\.json$",
+      "dataRouteRegex": "^/_next/data/Dn79\\-GvpYXlXaebB4YQr3/services/([^/]+?)/([^/]+?)\\.json$",
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -2427,8 +2427,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "7d0caa879a91dcb91f59607c4e667395",
-    "previewModeSigningKey": "579378aa1ce4032bae4a0f2c35979fd13a7a1fd79fd43a2368719e4755692a5d",
-    "previewModeEncryptionKey": "8d0ff5dd10f4e0294e8522f9817a410c9f439526f72a34bfee225c56b0124d8e"
+    "previewModeId": "3be296c4d2db31199b46be9880ff0a09",
+    "previewModeSigningKey": "b15cf81e3068af592f191d67668d0a6a766eba6db40128d54762cbbc930fd953",
+    "previewModeEncryptionKey": "793cb41ca4065017a46fb32cf4b352f1d38791c2a46b5e62607caa5225d11303"
   }
 }

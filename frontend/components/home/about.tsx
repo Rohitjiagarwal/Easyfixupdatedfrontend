@@ -9,16 +9,15 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import CountUp from "react-countup"; // Import react-countup for number animation
-import { useInView } from "react-intersection-observer"; // Import react-intersection-observer to detect visibility
+import CountUp from "react-countup";
+import { useInView } from "react-intersection-observer";
 
 export default function AboutUs() {
   const [isMounted, setIsMounted] = useState(false);
 
-  // Use react-intersection-observer to detect when the milestones section is in view
   const { ref, inView } = useInView({
-    triggerOnce: true, // Only trigger the animation once
-    threshold: 0.3, // Trigger when 30% of the section is visible
+    triggerOnce: true,
+    threshold: 0.3,
   });
 
   useEffect(() => {
@@ -26,14 +25,12 @@ export default function AboutUs() {
     AOS.init({ duration: 1000, once: true });
   }, []);
 
-  // Sample images for carousel
   const images = [
     "/images/album/ac-service1730471015.jpg",
     "/images/album/service2.jpg",
     "/images/album/service3.jpg",
   ];
 
-  // Sample testimonials
   const testimonials = [
     {
       name: "Thennarasu Sathya",
@@ -47,11 +44,10 @@ export default function AboutUs() {
     },
   ];
 
-  // Define milestone data with end values
   const milestones = [
-    { end: 3000, suffix: "+", label: "Successful Services" },
-    { end: 15, suffix: "+", label: "Years in Business" },
-    { end: 99, suffix: "%", label: "Happy Clients" },
+    { end: 3000, suffix: "+", label: "Successful Services", icon: "trophy" },
+    { end: 15, suffix: "+", label: "Years in Business", icon: "check" },
+    { end: 99, suffix: "%", label: "Happy Clients", icon: "star" },
   ];
 
   return (
@@ -119,39 +115,76 @@ export default function AboutUs() {
                   with warranty
                 </li>
               </ul>
-              <a href="#contact" className="btn btn-primary btn-with-icon mt-4">
-                <span>
-                  <i className="bi bi-telephone-fill"></i>
-                </span>{" "}
+              <a href="#contact" className="btn btn-primary btn-with-icon mt-4 ">
                 Book a Service
               </a>
             </div>
           </div>
         </div>
 
-        {/* Milestones Section with Dynamic Numbers */}
+        {/* Milestones Section */}
         <div
-          ref={ref} // Attach the ref to the milestones section
-          className="custom-bg custom-border-radius p-5 milestones-temp mt-5"
+          ref={ref}
+          className="milestones-section custom-border-radius p-5 mt-5"
           data-aos="fade-up"
         >
           <div className="milestones-content">
             <div className="row text-center">
               {milestones.map((milestone, index) => (
-                <div className="col-md-4" key={index}>
-                  <div className="counter">
+                <div
+                  className="col-md-4 mb-4"
+                  key={index}
+                  data-aos="zoom-in"
+                  data-aos-delay={index * 200}
+                >
+                  <div className="counter-card">
+                    <div className="counter-icon">
+                      {milestone.icon === "trophy" && (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M2.5.5A.5.5 0 0 1 3 0h10a.5.5 0 0 1 .5.5c0 .538-.012 1.05-.034 1.536a3 3 0 1 1-1.133 5.89c-.79 1.865-1.878 2.777-2.833 3.011v2.173l1.425.356c.194.048.377.135.537.255L13.3 15.1a.5.5 0 0 1-.3.9H3a.5.5 0 0 1-.3-.9l1.838-1.379c.16-.12.343-.207.537-.255L6.5 13.11v-2.173c-.955-.234-2.043-1.146-2.833-3.012a3 3 0 1 1-1.132-5.89A33.076 33.076 0 0 1 2.5.5zm.099 2.54a2 2 0 0 0 .72 3.935c-.333-1.05-.588-2.346-.72-3.935zm10.083 3.935a2 2 0 0 0 .72-3.935c-.133 1.59-.388 2.885-.72 3.935zM3.504 1c.007.517.026 1.006.056 1.469.03 1.492.567 2.695 1.594 3.69.408-.344.741-.77.941-1.229a33.336 33.336 0 0 0-.056-1.469c-.03-1.492-.567-2.695-1.594-3.69-.2.46-.533.885-.941 1.229z" />
+                        </svg>
+                      )}
+                      {milestone.icon === "star" && (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                        </svg>
+                      )}
+                      {milestone.icon === "check" && (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="40"
+                          height="40"
+                          fill="currentColor"
+                          viewBox="0 0 16 16"
+                        >
+                          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z" />
+                        </svg>
+                      )}
+                    </div>
                     <h2 className="display-4 text-primary">
                       {inView ? (
                         <CountUp
                           start={0}
                           end={milestone.end}
-                          duration={2.5} // Animation duration in seconds
+                          duration={2.5}
                           suffix={milestone.suffix}
                           useEasing={true}
                           redraw={true}
                         />
                       ) : (
-                        "0" // Show 0 until the section is in view
+                        "0"
                       )}
                     </h2>
                     <p>{milestone.label}</p>
@@ -160,7 +193,7 @@ export default function AboutUs() {
               ))}
             </div>
           </div>
-        </div>
+        </div>*/
 
         {/* Testimonials Section */}
         <div className="mt-5" data-aos="fade-up">

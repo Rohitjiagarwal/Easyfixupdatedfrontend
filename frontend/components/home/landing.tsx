@@ -159,6 +159,7 @@ export default function LandingPage() {
                   className="btn btn-primary rounded-pill mt-3 w-100 p-2"
                   data-aos="fade-up"
                   data-aos-delay="700"
+                  
                 >
                   Book Now
                 </button>
@@ -200,11 +201,7 @@ export default function LandingPage() {
           <div className="decorative-shape shape-3"></div>
         </div>
       </div>
-      <div className="scroll-down" data-aos="fade-up" data-aos-delay="900">
-        <span></span>
-        <p>Scroll Down</p>
-      </div>
-      <div className="wave-decoration"></div>
+      
     </section>
   );
 }

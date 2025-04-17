@@ -1,68 +1,130 @@
-"use client"
+"use client";
 
+import { useEffect, useState } from "react";
 import Image from "next/image";
-import { useEffect } from "react";
 import Link from "next/link";
 
-
 export default function Navbar() {
-    useEffect(() => {
-        if (typeof window !== "undefined") {
-            import('bootstrap/dist/js/bootstrap.bundle.min.js');
-        }
-    }, []);
-    
-    return(
-        <div className="navbar-wrap p-4">
-            <nav className="nav-main border navbar fixed-top rounded-4 navbar-expand-lg bg-body-tertiary">
-                <div className="container-fluid">
+  const [isOpen, setIsOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
-                    <Link className="navbar-brand" href="/">
-                        <Image src="/images/album/easy-fix-logo-bg-removed-2.png" width={100} height={60} style={{width: "100%", height: "60px", objectFit: "contain"}}
-                        alt="brand logo"/>
-                    </Link>
+  useEffect(() => {
+    import("aos")
+      .then((AOS) => {
+        AOS.default.init({ duration: 1000, once: true });
+      })
+      .catch((err) => console.error("AOS import failed:", err));
+  }, []);
 
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-main"
-                        aria-controls="nav-main" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+  const toggleMenu = () => {
+    console.log("Toggler clicked, isOpen:", !isOpen); // Debug log
+    setIsOpen((prev) => !prev);
+    if (dropdownOpen) setDropdownOpen(false); // Close dropdown when toggling menu
+  };
+
+  const toggleDropdown = () => {
+    console.log("Dropdown toggled, dropdownOpen:", !dropdownOpen); // Debug log
+    setDropdownOpen((prev) => !prev);
+  };
+
+  const navItems = [
+    { href: "/", label: "Home", active: true },
+    { href: "/air-conditioner", label: "Air Conditioner Service" },
+    { href: "/washing-machine", label: "Washing Machine" },
+    {
+      label: "Services",
+      dropdown: [
+        { href: "/fridge", label: "Fridge" },
+        { href: "/dish-washer", label: "Dish Washer" },
+        { href: "/water-heater", label: "Water Heater" },
+        { href: "/oven", label: "Oven" },
+      ],
+    },
+    { href: "#contact", label: "Contact" },
+  ];
+
+  return (
+    <div className="navbar-wrap" data-aos="fade-down">
+      <nav className="nav-main">
+        <div className="nav-content">
+          <Link className="nav-logo" href="/">
+            <Image
+              src="/images/album/easy-fix-logo-bg-removed-2.png"
+              width={100}
+              height={60}
+              style={{ width: "100%", height: "60px", objectFit: "contain" }}
+              alt="Easy Fix logo"
+              priority
+            />
+          </Link>
+
+          <button
+            className={`nav-toggler ${isOpen ? "open" : ""}`}
+            type="button"
+            onClick={toggleMenu}
+            aria-label="Toggle navigation"
+          >
+            <span className="nav-toggler-icon"></span>
+          </button>
+
+          <div className={`nav-menu ${isOpen ? "show" : ""}`}>
+            <ul className="nav-list">
+              {navItems.map((item, index) =>
+                item.dropdown ? (
+                  <li
+                    className="nav-item nav-dropdown"
+                    key={index}
+                    data-aos="fade-right"
+                    data-aos-delay={index * 100}
+                  >
+                    <button
+                      className={`nav-link nav-dropdown-toggle ${
+                        dropdownOpen ? "open" : ""
+                      }`}
+                      onClick={toggleDropdown}
+                    >
+                      {item.label}
+                      <span className="dropdown-arrow">▼</span>
                     </button>
-
-                    <div className="collapse navbar-collapse" id="nav-main">
-                        <ul className="navbar-nav ms-auto">
-                            <li className="nav-item">
-                                <Link className="nav-link active " aria-current="page" href="">
-                                    Home
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" href="air-conditioner.html">
-                                    Air Conditioner Service
-                                </Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" href="washing-machine.html">Washing Machine</Link>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <Link className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services
-                                </Link>
-                                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    {/* <!-- <Link className="dropdown-item" href="air-conditioner.html">Air Conditioner</Link>
-                                    <Link className="dropdown-item" href="washing-machine.html">Washing Machine</Link> --> */}
-                                    <Link className="dropdown-item" href="fridge.html">Fridge</Link>
-                                    <Link className="dropdown-item" href="dish-washer.html">Dish Washer</Link>
-                                    <Link className="dropdown-item" href="wate-heater.html">Water Heater</Link>
-                                    <Link className="dropdown-item" href="oven.html">Oven</Link>
-                                </div>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" href="#contact">Contact</Link>
-                            </li>
-                        </ul>
+                    <div
+                      className={`nav-dropdown-menu ${dropdownOpen ? "show" : ""}`}
+                    >
+                      {item.dropdown.map((subItem, subIndex) => (
+                        <Link
+                          className="nav-dropdown-item"
+                          href={subItem.href}
+                          key={subIndex}
+                          onClick={() => {
+                            setIsOpen(false);
+                            setDropdownOpen(false);
+                          }}
+                        >
+                          {subItem.label}
+                        </Link>
+                      ))}
                     </div>
-                </div>
-            </nav>
+                  </li>
+                ) : (
+                  <li
+                    className="nav-item"
+                    key={index}
+                    data-aos="fade-right"
+                    data-aos-delay={index * 100}
+                  >
+                    <Link
+                      className={`nav-link ${item.active ? "active" : ""}`}
+                      href={item.href}
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {item.label}
+                    </Link>
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
         </div>
-    )
+      </nav>
+    </div>
+  );
 }

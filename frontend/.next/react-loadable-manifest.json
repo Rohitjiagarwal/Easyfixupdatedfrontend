@@ -16,11 +16,10 @@
       "static/chunks/477.1eb84747bebe4588.js"
     ]
   },
-  "components\\navbar.tsx -> bootstrap/dist/js/bootstrap.bundle.min.js": {
-    "id": 3966,
+  "components\\navbar.tsx -> aos": {
+    "id": 7304,
     "files": [
-      "static/chunks/737.0066934ddbf85201.js",
-      "static/chunks/966.2b2c3fb8cda3dfac.js"
+      "static/chunks/915.9713b57c5f65fa9e.js"
     ]
   },
   "node_modules\\next\\dist\\client\\index.js -> ../pages/_app": {
@@ -48,7 +47,7 @@
       "static/chunks/08687d28.ca5aa09d605d49d3.js",
       "static/chunks/281c3f4d.8af47c2529eefdca.js",
       "static/chunks/985.e2f5c2875af830e4.js",
-      "static/chunks/200.dd5a376264164aa6.js",
+      "static/chunks/200.d4b067c537405865.js",
       "static/chunks/872.9c1598249ddf0351.js"
     ]
   },
@@ -65,7 +64,7 @@
       "static/chunks/08687d28.ca5aa09d605d49d3.js",
       "static/chunks/281c3f4d.8af47c2529eefdca.js",
       "static/chunks/985.e2f5c2875af830e4.js",
-      "static/chunks/200.dd5a376264164aa6.js",
+      "static/chunks/200.d4b067c537405865.js",
       "static/chunks/872.9c1598249ddf0351.js"
     ]
   }
