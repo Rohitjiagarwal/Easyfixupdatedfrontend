@@ -1,0 +1,59 @@
+{
+  "locations": {
+    "Karaikudi": {
+      "line1": "#25, 1st Subramaniyapuram street,",
+      "line2": "State Bank Road,",
+      "line3": "Karaikudi 630002",
+      "mobileNumber0": "7904963384",
+      "mobileNumber1": "+91 7904963384",
+      "mobileNumber2": "+91 9487663746",
+      "postalCode": "630002",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
+    },
+    "Madurai": {
+      "line1": "#2, Anna Nagar,",
+      "line2": "2nd Street West,",
+      "line3": "Alagar Kovil Road, Madurai",
+      "mobileNumber0": "123456789",
+      "mobileNumber1": "+91 96266311221",
+      "mobileNumber2": "+91 123456789",
+      "postalCode": "630005",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
+    },
+    "Chennai": {
+      "line1": "#3, T. Nagar,",
+      "line2": "3rd Avenue,",
+      "line3": "Mount Road, Chennai",
+      "mobileNumber0": "123456789",
+      "mobileNumber1": "+91 9976504544",
+      "mobileNumber2": "+91 123456789",
+      "postalCode": "630005",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
+    },
+    "Coimbatore": {
+      "line1": "#4, Gandhipuram,",
+      "line2": "4th Cross Street,",
+      "line3": "Avinashi Road, Coimbatore",
+      "mobileNumber0": "123456789",
+      "mobileNumber1": "+91 9626631021",
+      "mobileNumber2": "+91 123456789",
+      "postalCode": "630005",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
+    },
+    "Tirupur": {
+      "line1": "#5, Avinashi,",
+      "line2": "5th Block,",
+      "line3": "Kangeyam Road, Tirupur",
+      "mobileNumber0": "123456789",
+      "mobileNumber1": "+91 9626631021",
+      "mobileNumber2": "+91 123456789",
+      "postalCode": "630005",
+      "latitude": "10.062707",
+      "longitude": "78.7900282"
+    }
+  }
+}

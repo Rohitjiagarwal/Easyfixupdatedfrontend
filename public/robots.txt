@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.easyfixexpert.com
+
+# Sitemaps
+Sitemap: https://www.easyfixexpert.com/sitemap.xml

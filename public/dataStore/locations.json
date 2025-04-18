@@ -1,0 +1,102 @@
+{
+  "cities": ["Karaikudi"],
+  "products": [
+    {
+      "name": "AC",
+      "brands": [
+        "Daikin",
+        "Samsung",
+        "LG",
+        "Whirlpool",
+        "Godrej",
+        "Blue Star",
+        "Voltas",
+        "Carrier",
+        "Hitachi",
+        "Panasonic",
+        "Haier",
+        "Mitsubishi",
+        "Lloyd",
+        "IFB",
+        "O General",
+        "Onida",
+        "Sansui"
+      ]
+    },
+    {
+      "name": "DishWasher",
+      "brands": [
+        "Samsung",
+        "Bosch",
+        "IFB",
+        "LG",
+        "Voltas Beko",
+        "Siemens",
+        "Elica",
+        "Faber"
+      ]
+    },
+    {
+      "name": "Fridge",
+      "brands": [
+        "Samsung",
+        "LG",
+        "Whirlpool",
+        "Godrej",
+        "Haier",
+        "Panasonic",
+        "Bosch",
+        "Electrolux",
+        "Hitachi",
+        "Voltas Beko",
+        "Siemens"
+      ]
+    },
+    {
+      "name": "WashingMachine",
+      "brands": [
+        "LG",
+        "Samsung",
+        "Whirlpool",
+        "IFB",
+        "Bosch",
+        "Haier",
+        "Panasonic",
+        "Godrej",
+        "Voltas Beko",
+        "Onida",
+        "Lloyd"
+      ]
+    },
+    {
+      "name": "Oven",
+      "brands": [
+        "Samsung",
+        "LG",
+        "IFB",
+        "Panasonic",
+        "Whirlpool",
+        "Godrej",
+        "Morphy Richards",
+        "Haier",
+        "Bajaj",
+        "Bosch"
+      ]
+    },
+    {
+      "name": "WaterHeater",
+      "brands": [
+        "Venus",
+        "Racold",
+        "AO Smith",
+        "Havells",
+        "Bajaj",
+        "Crompton",
+        "V-Guard",
+        "Usha",
+        "Kenstar",
+        "Orient Electric"
+      ]
+    }
+  ]
+}
